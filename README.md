@@ -1,3 +1,10 @@
+Customization -
+
+- Added telegram message alert feature in sqlmap
+- Command: py sqlmap.py -u http://127.0.0.1:4280/vulnerabilities/sqli/ --cookie="PHPSESSID=4e21dba31e38851a8b2f608c46267e44;security=medium" --data="id=TURNAROUND&Submit=Submit" --level=1 --risk=1 --batch -v 3 -o > C:\Users\bhanu.pratap\AppData\Local\sqlmap\output\Xdvwa.txt --beep
+- Changes in file: check.py and beep.py
+
+
 # sqlmap ![](https://i.imgur.com/fe85aVR.png)
 
 [![.github/workflows/tests.yml](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml/badge.svg)](https://github.com/sqlmapproject/sqlmap/actions/workflows/tests.yml) [![Python 2.6|2.7|3.x](https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE) [![Twitter](https://img.shields.io/badge/twitter-@sqlmap-blue.svg)](https://twitter.com/sqlmap)
